@@ -80,6 +80,7 @@ target_link_libraries(dmultimap
   "${sdsl-lite_LIB}/libsdsl.a"
   "${sdsl-lite-divsufsort_LIB}/libdivsufsort.a"
   "${sdsl-lite-divsufsort_LIB}/libdivsufsort64.a"
+  "${bsort_LIB}/libbsort.a"
  # "-ldl"
 #"-ltcmalloc"
   )
